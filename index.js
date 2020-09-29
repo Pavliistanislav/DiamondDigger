@@ -58,7 +58,7 @@ class Diamond {
 	}
 
 	init() {
-		this.root.addEventListener( 'click', ( evt ) => { // вешаем ивент onclick на this.root
+		this.root.addEventListener( 'click', ( evt ) => { 
 			// всплытие и перехват + делегирование событий
 			const div = evt.target.closest( 'div' );
 			if ( !div ) return;
@@ -68,5 +68,5 @@ class Diamond {
 	}
 }
 
-const diamond = new Diamond(); // инициализируем класс 
+const diamond = new Diamond(); 
 diamond.init();
