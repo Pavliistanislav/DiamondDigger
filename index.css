@@ -11,12 +11,12 @@
 }
 
 table td {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  border: 1px solid black;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid black;
 }
 
 table td div {
-  cursor: pointer;
+	cursor: pointer;
 }
